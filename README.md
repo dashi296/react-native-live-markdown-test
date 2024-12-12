@@ -48,3 +48,31 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+## 打ったコマンド
+
+```bash
+npm install
+```
+
+```bash
+npm install patch-package --save-dev
+```
+
+```bash
+npx expo install @expensify/react-native-live-markdown react-native-reanimated expensify-common
+```
+
+```bash
+npx expo prebuild
+```
+
+```bash
+npx expo android
+```
+
+error message
+```bash
+ (NOBRIDGE) ERROR  Error: [react-native-live-markdown] `parseExpensiMark` requires `html-entities` package to be workletized. Please add `'worklet';` directive at the top of `node_modules/html-entities/lib/index.js` using patch-package. [Component Stack]
+ (NOBRIDGE) WARN  Route "./(tabs)/index.tsx" is missing the required default export. Ensure a React component is exported as default. [Component Stack]
+```
